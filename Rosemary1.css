@@ -1,0 +1,93 @@
+body {
+    background-color: olive;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: rgb(210, 126, 210);
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+     width: 100%;
+    margin-inline: auto;
+}
+
+.navbar a {
+    color: darkolivegreen;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(240, 173, 245);
+}
+
+header {
+    background-image: url(Images/RosemaryEars.png);
+    background-position: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(210, 126, 210);
+    padding: 100px;
+    font-size: 5vw;
+}
+
+h1,
+section,
+footer,
+.navbar,
+div {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: rgb(210, 126, 210);
+    color: darkolivegreen;
+    padding: 40px;
+    width: fit-content;
+}
+
+div {
+    background-color: rgb(240, 173, 245);
+    padding: 10px;
+    margin-top: 20px;
+    width: auto;
+}
+
+h2 {
+    font-size: 40px;
+    color: darkolivegreen;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    background-image: url(Images/Rosemaryfeet.png);
+    background-size: 110%;
+    background-position: 0% 90%;
+    padding: 20px;
+    margin-top: 30px;
+    color: rgb(240, 173, 245);
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 700px) {
+
+    .navbar,
+    header,
+    footer,
+    section,
+    div {
+        flex-direction: column
+    }
+}
